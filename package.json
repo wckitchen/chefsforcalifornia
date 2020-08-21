@@ -1,0 +1,24 @@
+{
+  "name": "chefsforcalifornia",
+  "version": "1.0.0",
+  "description": "Airtable -> Mapbox Tiling Service",
+  "scripts": {
+    "test": "ava",
+    "lint": "eslint ./test/** ./src/**"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wckitchen/chefsforcalifornia.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wckitchen/chefsforcalifornia/issues"
+  },
+  "homepage": "https://github.com/wckitchen/chefsforcalifornia#readme",
+  "devDependencies": {
+    "ava": "^3.11.1",
+    "eslint": "^7.7.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5"
+  }
+}
