@@ -4,7 +4,8 @@
   "description": "Airtable -> Mapbox Tiling Service",
   "scripts": {
     "test": "ava",
-    "lint": "eslint ./test/** ./src/**"
+    "lint": "eslint ./test/** ./src/**",
+    "start": "node src/main.js"
   },
   "repository": {
     "type": "git",
@@ -16,9 +17,13 @@
   "homepage": "https://github.com/wckitchen/chefsforcalifornia#readme",
   "devDependencies": {
     "ava": "^3.11.1",
+    "dotenv": "^8.2.0",
     "eslint": "^7.7.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
     "prettier": "^2.0.5"
+  },
+  "dependencies": {
+    "airtable": "^0.9.0"
   }
 }
